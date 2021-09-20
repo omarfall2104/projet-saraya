@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="/" class="brand">Saraya</a>
+	<ul>
+		<li> <a href="#">Home</a></li>
+		<li><a href="/formation.do">Courses</a></li>
+		<li><a href="https://www.sarayatechsolutions.com">SarayaTech</li>
+	</ul>
+	<ul>
+			<li><a href="/logout.do">Logout</a></li>
+	</ul>
+
+</body>
+</html>
