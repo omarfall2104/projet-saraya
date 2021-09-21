@@ -25,6 +25,6 @@ text-align: center;
 <body>
 		<h1>Welcom  To  Saraya TECH SERVICE </h1>
 		<h1>you need to visite my Space Service Car clic <a href= "/list-car">here</a></h1>
-		<h3>${name}</h3>
+		
 </body>
 </html>

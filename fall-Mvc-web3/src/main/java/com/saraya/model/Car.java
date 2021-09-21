@@ -5,8 +5,9 @@ import javax.validation.constraints.Size;
 public class Car {
 	
 		private int id;
-		@Size(min = 4, message= "Enter a messafw")
 		private int year;
+		@Size(min = 4, message= "Enter at leat 4 letters")
+		//String description;
 		private String make;
 		private String model;
 		private String image;
@@ -17,6 +18,9 @@ public class Car {
 			this.make = make;
 			this.model = model;
 			this.image = image;
+		}
+		public Car() {
+			// TODO Auto-generated constructor stub
 		}
 		public int getId() {
 			return id;
